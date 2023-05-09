@@ -48,6 +48,31 @@
   </header>
   
 <style>
+  .btn-xl {
+    padding: 10px 20px;
+    font-size: 40px;
+    border-radius: 10px;
+}
+  @media screen and (max-width: 768px) {
+  .btn {
+    font-size: 1.5rem;
+  }
+  
+  .text-center {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .btn {
+    font-size: 1.2rem;
+  }
+  
+  .text-center {
+    font-size: 1.2rem;
+  }
+}
+
   .dropdown:hover .dropdown-menu{
     display: block;
 }
@@ -120,17 +145,21 @@ body {
 </head>
 <body>
 <!-- Donate button -->
-<a href="./donate.html"><button class="btn btn-warning position-absolute" style="width: 280px; height: 89px; left: 233px; top: 349px; font-size: 25px" >Donate</button></a>
-
-<!-- Give hope to children with cancer. -->
-<div class="text-center position-absolute" style="width: 668px; height: 42px; left: 20%; transform: translateX(-50%); top: 440px; font-family: 'Dubai'; font-weight: 500; font-size: 25px; line-height: 42px; letter-spacing: 0.08em; color: #FFFFFF;">
-  Give hope to children with cancer.
+<div class="container text-left">
+  <div class="row justify-content-center align-items-center vh-100">
+    <div class="col-md-12">
+      <div class="pl-4">
+        <a href="donate.html" class="btn btn-warning btn-lg mb-3" style="font-size: 2.5rem; padding: 1rem 2rem;">Donate</a>
+        <p class="text-light"style=" font-size: 1.5rem; padding-bottom: 1rem;">Give hope to children with cancer.</p>
+        <a href="learnmore.html" class="text-light" style="font-size: 1.2rem;">Learn more</a>
+      </div>
+    </div>
+  </div>
 </div>
 
-<!-- Learn more -->
-<div class="text-center position-absolute" style="width: 668px; height: 34px; left: 20%; transform: translateX(-50%); top: 479px; font-family: 'Dubai'; font-weight: 500; font-size: 20px; line-height: 34px; letter-spacing: 0.08em; text-decoration-line: underline; color: #D8D8D8;">
-  <a href="./learnmore.html" >Learn more</a>
-</div>
+
+
+
 
 
 </body>
