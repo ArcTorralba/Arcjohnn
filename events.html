@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <header>
+    <div class="container" >
+      <nav class="navbar navbar-expand-lg navbar-black-50">
+        <a class="navbar-brand" href="#">
+          <img src="./public/playground_assets/hopehouselogo283-rmy7-200h.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-warning navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown" href="./project.html" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="true">
+                Projects
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./events.html">Events</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="./getinvolved.html">Get Involved</a></li>
+              </ul>
+            </li>          
+            <li class="nav-item">
+              <a class="nav-link" href="./blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacts.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <form class="form-inline my-2 my-lg-0">
+          <div class="input-group">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="submit">
+                <i class="fa fa-search"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </nav>
+    </div>
+  </header>
+  
+<style>
+  .dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+  a {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  header {
+    background-color: rgba(75, 75, 75, 1);
+  color: #fff;
+  
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+footer{
+    background-color: rgba(75, 75, 75, 1);
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.navbar-nav .nav-item {
+  margin: 0 10px;
+}
+
+.nav-link {
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Dubai';
+  font-size: 30px;
+}
+
+.form-inline {
+  margin-top: 10px;
+}
+
+.form-control {
+  width: 300px;
+  border-radius: 0;
+}
+
+body {
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+*{
+    margin:0;
+    padding:0;
+  }
+
+  @font-face {
+    font-family: 'Custom Font';
+    src: url('./fonts/Dubai-Regular.woff') format('woff'),
+         url('./fonts/Dubai-Bold.woff') format('woff');
+  }
+  
+  body{
+    margin:0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size:17px;
+    color:#797878;
+    line-height:1.6;
+  }
+  
+  #showcase{
+    background-image:url('./bg.png');
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 20px;
+  }
+  
+  #showcase h1{
+    font-size:25px;
+    line-height:1.2;
+    color:#797878;
+  }
+
+  #about h2{
+    text-align: center;
+    letter-spacing: 50px;
+    font-weight: bold;
+    font-size: 120px;
+  }
+
+  /*HOPE Every color*/
+  .H{
+    color: #CC4B37;
+  }
+  .O{
+    color: #3ADB76;
+  }
+  .P{
+    color: #FFAE00;
+  }
+  .E{
+    color: #0455BF;
+  }
+
+  /*P*/
+  #about p{
+    font-size: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  .bold{
+    font-weight: bold; 
+  }
+
+  p{
+    text-align: justify;
+  }
+
+  .image-container {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .imgbata {
+    width: 100%;
+    height: auto;
+  }
+
+  #about .vision{
+    font-size: 35px;
+  }
+
+  .vision-mean{
+    text-align: center;
+  }
+  
+
+  .hero-image {
+    background-image: url('./bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero-image2 {
+    background-color: #fff;
+    background-image: url('./hh.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  h3{
+    text-align: justify;
+    letter-spacing: 40px;
+    text-align: center;
+  }
+
+
+
+span{
+  text-align: center;
+}
+
+.hola{
+  letter-spacing: 2px;
+  color: grey;
+}
+</style>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Dubai:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" href="style.css">
+</head>
+<body> 
+
+
+
+    <div class="hero">
+        <header class="hero-image">
+          </header>
+    </div>
+      <br><br><br><br>
+      <main id="main">
+          <!-- ======= House of Hope Section ======= -->
+          <section id="about" class="about">
+            <div class="container" data-aos="fade-up">
+              <div class="section-title">
+                <h2><span class="H">H</span><span class="O">O</span><span class="P">P</span><span class="E">E</span></h2>
+                <h3>events</h3>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae suscipit tellus mauris a. Vitae semper quis lectus nulla at volutpat. 
+                  Magna eget est lorem ipsum dolor sit amet consectetur adipiscing. Vel orci porta non pulvinar.</p>
+              </div>
+            </div>
+          </section><!-- End of Hope Section -->
+      </main>
+      <br><br><br><br>
+  
+      <!--Image ni Kiyan-->
+      <div class="hero">
+          <header class="hero-image2">
+            </header>
+      </div>
+      <br><br>
+      <main id="main">
+          <!-- ======= About Section ======= -->
+          <section id="about" class="about">
+            <div class="container" data-aos="fade-up">
+              <div class="section-title">
+                <h4 style="font-size: 35px;">Recent Events</h4><br>
+                <div class="row">
+                  <div class="col-lg-2">
+                    <img src="./re1.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-lg-8 pt-4 pt-lg-0 content">
+                    <h5 style="font-size: 50px;">International Childhood Cancer Day</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu non diam phasellus vestibulum lorem sed risus. Imperdiet sed euismod nisi porta lorem . . .
+                    </p>
+                  </div>
+                </div><br><br>
+                <div class="row">
+                  <div class="col-lg-2">
+                    <img src="./re2.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-lg-8 pt-4 pt-lg-0 content">
+                    <h5 style="font-size: 50px;">Bags of Hope</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu non diam phasellus vestibulum lorem sed risus. Imperdiet sed euismod nisi porta lorem . . .
+                    </p>
+                  </div>
+                </div><br><br>
+                <div class="row">
+                  <div class="col-lg-2">
+                    <img src="./re3.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-lg-8 pt-4 pt-lg-0 content">
+                    <h5 style="font-size: 50px;">World Cancer Day</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu non diam phasellus vestibulum lorem sed risus. Imperdiet sed euismod nisi porta lorem . . .
+                    </p>
+                  </div>
+                </div><br><br>
+                <div class="row">
+                  <div class="col-lg-2">
+                    <img src="./re4.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-lg-8 pt-4 pt-lg-0 content">
+                    <h5 style="font-size: 50px;">Survivor's Day 2023</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu non diam phasellus vestibulum lorem sed risus. Imperdiet sed euismod nisi porta lorem . . .
+                    </p>
+                  </div>
+                </div><br><br>
+              </div>
+            </div>
+          </section>
+          <!-- End About Section -->
+      </main>
+      <br><br>
+  
+      <section id="about" class="about">
+            <div class="container" data-aos="fade-up">
+              <div class="section-title"></div>
+                <h3 class="hola">Ops! you've run out of events.</h3>
+                <br>
+              </div>
+            </div>
+          </section>
+          <br><br>
+
+          <footer class="footer text-white">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-4">
+                  <h5>Donate</h5>
+                  <p>Donate now to help support our cause.</p>
+                  <img src="Group 3.png" alt="Bank logos">
+                </div>
+                <div class="col-sm-4">
+                  <h5>Socials</h5>
+                  <ul class="list-unstyled">
+                    <li><a href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i> Twitter</a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i> Instagram</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-4">
+                  <h5>Contact</h5>
+                  <p>Southern Philippines Medical Center Compound, J. P. Laurel Avenue, Poblacion Buhangin, Davao City, Davao del Sur 8000<br>
+                    Email:contact@kidsofhope.org<br>
+                    (+63) 910 161 2371</p>
+                </div>
+              </div>
+            </div>
+          </footer>
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>
